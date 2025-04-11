@@ -3,7 +3,7 @@
 
   kintone.events.on(["app.record.create.show"], (event) => {
     alert(event.type);
-    alert("Hello World");
+    alert("Hello World!!!!");
     return event;
   });
 })();
